@@ -1,0 +1,215 @@
+# depslib dependency file v1.0
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/binex.c
+	"rtklib.h"
+
+1552362122 /home/cc/CWorkPlace/streamsvr/src/rtklib.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<math.h>
+	<time.h>
+	<ctype.h>
+	<winsock2.h>
+	<windows.h>
+	<pthread.h>
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/cmr.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/convgpx.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/convkml.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/convrnx.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/crescent.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/datum.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/download.c
+	<errno.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ephemeris.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/geoid.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/gis.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/gw10.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/initGIPS.cpp
+	<iostream>
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ionex.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/javad.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/lambda.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/message.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/novatel.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/nvs.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/options.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/pntpos.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/postpos.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ppp.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ppp_ar.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ppp_corr.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/preceph.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/qzslex.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rcvlex.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rcvraw.c
+	"rtklib.h"
+	<stdint.h>
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rinex.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rt17.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtcm.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtcm2.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtcm3.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtcm3e.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtkcmn.c
+	<stdarg.h>
+	<ctype.h>
+	<dirent.h>
+	<time.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtkpos.c
+	<stdarg.h>
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/rtksvr.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/sbas.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/septentrio.c
+	"rtklib.h"
+	<math.h>
+	<stdint.h>
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/skytraq.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/solution.c
+	<ctype.h>
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ss2.c
+	"rtklib.h"
+
+1552362119 source:/home/cc/CWorkPlace/streamsvr/src/stream.c
+	<ctype.h>
+	"rtklib.h"
+	<fcntl.h>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<errno.h>
+	<termios.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1552825396 source:/home/cc/CWorkPlace/streamsvr/src/streamsvr.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/tersus.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/tides.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/tle.c
+	"rtklib.h"
+
+1552306709 source:/home/cc/CWorkPlace/streamsvr/src/ublox.c
+	"rtklib.h"
+
+1552825783 source:/home/cc/CWorkPlace/streamsvr/main.cpp
+	<iostream>
+	<stdio.h>
+	<iomanip>
+	<sys/time.h>
+	"Strsvr.h"
+
+1552362124 /home/cc/CWorkPlace/streamsvr/gips.h
+	<iostream>
+	"src/rtklib.h"
+	<sstream>
+
+1552722154 source:/home/cc/CWorkPlace/streamsvr/src/streamsvr.cpp
+	"rtklib.h"
+	"streamsvr.h"
+
+1552722378 /home/cc/CWorkPlace/streamsvr/include/streamsvr.h
+	"rtklib.h"
+
+1552826428 /home/cc/CWorkPlace/streamsvr/Strsvr.h
+	"src/rtklib.h"
+	<iostream>
+	<sstream>
+
+1552825784 source:/home/cc/CWorkPlace/streamsvr/Strsvr.cpp
+	"Strsvr.h"
+

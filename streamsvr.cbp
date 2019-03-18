@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="streamsvr" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/streamsvr" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/streamsvr" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Strsvr.cpp" />
+		<Unit filename="Strsvr.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/binex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/convgpx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/convkml.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/convrnx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/crescent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/datum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/download.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ephemeris.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/geoid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/gis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/gw10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ionex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/javad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lambda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/novatel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/nvs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pntpos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/postpos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ppp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ppp_ar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ppp_corr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/preceph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/qzslex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rcvlex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rcvraw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rinex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rt17.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtcm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtcm2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtcm3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtcm3e.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtkcmn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtklib.h" />
+		<Unit filename="src/rtkpos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtksvr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sbas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/septentrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/skytraq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/solution.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ss2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/streamsvr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tersus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tides.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ublox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
